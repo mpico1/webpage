@@ -1,0 +1,134 @@
+/*
+	Comment
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.TestClass {
+	color: Black;
+	background-color: White;
+	text-align: left;
+}
+
+@media screen and (max-width:420px){
+	margin:0%;
+}
+
+
+
+.nav{
+	background:orange;
+	height: 50px;
+}
+.nav h1{
+	margin:0px;
+	display:inline-block;
+	position: absolute;
+    left: 0;
+	top:0;
+	padding:10px 20px; 
+    font-size: 40px;
+    color: white;
+}
+.nav ul{
+	position:absolute;
+	right:5px;
+}
+.nav ul li{
+	display:inline-block;
+}
+.nav ul li a {
+	color:white;
+	padding: 5px 20px;
+	font-size:30px;
+}
+
+
+.capitulos{
+	position:fixed;
+	bottom:40%;
+	background:orange;
+	font-size:100%;
+}
+.capitulos ol{
+	margin:40px;
+}
+.capitulos h1, .capitulos ol{
+	padding:0px 40px;
+}
+.capitulos h1, .capitulos a{
+	color:rgb(100,100,255);
+}
+
+
+
+
+#intro {
+	text-align: center;
+	
+	
+}
+h1{
+	font-family: 'Patrick Hand', cursive;
+	font-size:400%;
+}
+p{
+	font-family: 'Amatic SC', cursive;
+	color:#00FFFF;
+	font-size:200%;
+	margin:5% 20% 0% 20%;
+}
+
+.capitulos li{
+	font-family: 'Amatic SC', cursive;
+	color:#00FFFF;
+	font-size:200%;
+}
+
+ #intro h1 {
+	color:yellow;
+	margin:0% 30% 0% 30%;
+	padding-top: 10%;
+}
+ .cap h1 {
+	color:yellow;
+	margin:0% 30% 0% 30%;
+	padding-top: 10%;
+}
+
+#intro h2 {
+	color:white;
+}
+
+.home {
+	text-align: justified;
+	background-image:url("../img/background.jpg");
+	background-repeat:no-repeat;
+  	background-attachment: fixed;
+  	background-size:cover;
+  	padding-bottom: 100px;
+  	
+}
+.about{
+	background:url("../img/sunset-3254223_1280.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+.sobre{
+	position: absolute;
+	top:15%;
+	left:20%;
+	text-align: center;
+	color:white;
+}
+.contacto{
+	height: 100vh;
+	padding:20px;
+	background-color: orange;
+	text-align: center;
+	color:white;
+	background-size: cover;
+}
+
+
