@@ -1,0 +1,11 @@
+/*
+	Comment
+*/
+
+a { /* Comment */ color: /* Comment */ Red; }
+
+body {
+	color:White;
+	background-color: Black;
+	text-align: center;
+}
